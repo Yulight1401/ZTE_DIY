@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size:1.2rem;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+ul li {
+    display: inline-block;
+}
+nav{
+    height: 100px;
+}
+
+.nav{
+    margin: 0;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 0;
+    z-index: 20;
+    border: 1px solid gray;
+    border-radius: 3%;
+}
+.nav li{
+    width: 32%;
+    text-align: center;
+    font-size: 1.5em;
+    height: 100px;
+    line-height: 100px;
+}
+nav span {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    vertical-align: middle;
+}
+nav #share{
+    right: 5%;
+    font-size: 1.5rem;
+    line-height: 100px;
+}
+nav #refresh{
+    left: 5%;
+    font-size: 1.5rem;
+    line-height: 100px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+}
+#main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+#phone{
+
+    height: 1200px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+#container{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    bottom: 0px;
+    transition: all 1s;
+    z-index: 200;
+    padding: 0;
+    margin: 0px;
+    overflow-y: scroll;
+    text-align: center;
+    background-color: gainsboro;
+}
+#imgcontainer{
+    display: inline-block;
+    text-align: center;
+    width: 830px;
+    margin: 0px auto 0px auto;
+}
+#imgcontainer img{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 0.2rem 0.2rem ;
+}
+
+#options{
+    transition: all 1s;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+}
+#options  li {
+    float: left;
+    width: 24%;
+    text-align: center;
+    font-size: 1.5em;
+    height: 100px;
+    line-height: 100px;
+}

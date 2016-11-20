@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+<nav>
+    <span class="fa fa-refresh" id="refresh"></span>
+    <ul class="nav">
+        <li>
+            商城
+        </li>
+        <li>
+            互动
+        </li>
+        <li>
+            更多
+        </li>
+    </ul>
+    <span class="fa fa-share" id="share"></span>
+</nav>
+
+<div id="main">
+    <div id="phone">
+        <svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg" id="mainsvg">
+            <!-- Created with Method Draw - http://github.com/duopi xel/Method-Draw/ -->
+            <svg id="outtersvg"></svg>
+            <svg id="buttonssvg"></svg>
+            <svg id="otherssvg"></svg>
+        </svg>
+    </div>
+</div>
+<ul id="options" class=" bottom" onmouseleave="hideBoroad()">
+    <li id="theme">
+        套装
+    </li>
+    <li id="outter">
+        外形
+    </li>
+    <li id="buttons">
+        控件
+    </li>
+    <li id="others">
+        配饰
+    </li>
+    <div id="container" onscroll="javascript:event.stopPropagation()">
+        <div id="imgcontainer">
+            <img data-index="0" src="imgs/theme1.png">
+            <img data-index="1" src="imgs/theme2.png">
+            <img data-index="2" src="imgs/theme3.png">
+            <img data-index="3" src="imgs/theme4.png">
+            <img data-index="4" src="imgs/theme5.png">
+            <img data-index="5" src="imgs/theme6.png">
+            <img data-index="6" src="imgs/theme7.png">
+        </div>
+    </div>
+</ul>
+</body>
+<script src="main.js"></script>
+</html>
